@@ -19,3 +19,9 @@ h1 {
 .green { color: green; }
 .wide { width: 60%; }
 .attention { font-weight: bold; }
+
+.projects{
+    background: #00b3d1;
+}
+
+
