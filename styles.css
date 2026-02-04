@@ -20,12 +20,17 @@ h1 {
 .wide { width: 60%; }
 .attention { font-weight: bold; }
 
-.projects{
+.contact{
     background: #00b3d1;
 }
 
 .about{
     background: #00b3d1;
+}
+
+.Skill
+{
+	background: #00b3d1;
 }
 
 h2{
