@@ -15,3 +15,7 @@ h1 {
 	color: [turquoise];
 	text-align: center;
 }
+.left { text-align: left; }
+.green { color: green; }
+.wide { width: 60%; }
+.attention { font-weight: bold; }
