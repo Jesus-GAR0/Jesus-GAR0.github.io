@@ -1,8 +1,8 @@
 p { 
-  text-align: center;   color: teal; font: 20 bold;
+  text-align: center;   color: lab(17.73% 49.66 -56.66); font: 20 bold;
 }
 #para1 {
-  text-align: center;   color: teal;
+  text-align: center;   color: lab(17.73% 49.66 -56.66);
 }
 .center {
   text-align: center;   color: grey;
