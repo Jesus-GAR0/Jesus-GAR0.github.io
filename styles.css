@@ -1,62 +1,131 @@
-p { 
-  text-align: center;   color: lab(17.73% 49.66 -56.66); font: 20 bold;
-}
-#para1 {
-  text-align: center;   color: lab(17.73% 49.66 -56.66);
-}
-.center {
-  text-align: center;   color: grey;
-}
+/* =========================
+   Global Page Styling
+========================= */
+
 body {
-	background: goldenrod;
-	font-family: Arial, Helvetica, sans-serif;
+  background: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+/* Main title */
 h1 {
-	color: black;
-	text-align: center;
-}
-.left { text-align: left; }
-.green { color: green; }
-.wide { width: 60%; }
-.attention { font-weight: bold; }
-
-.contact{
-    background: #00b3d1;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.about{
-    background: #00b3d1;
+/* Section headings */
+h2 {
+  color: black;
+  text-align: center;
+  margin-top: 0;
 }
 
-.problem
-{
-	background: #00b3d1;
+/* Paragraph text */
+p {
+  text-align: center;
+  color: lab(17.73% 49.66 -56.66);
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.skills
-{
-	background: #00b3d1;
+/* =========================
+   Section Backgrounds
+========================= */
+
+.about,
+.mission,
+.problem,
+.skills,
+.persona,
+.projects,
+.contact {
+  background: #00b3d1;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
 }
 
-.mission 
-{
-	background: #00b3d1;
+/* =========================
+   Text Containers
+========================= */
+
+.about-me-dialogue,
+.mission-text,
+.problem-text,
+.skills-text,
+.contact-text,
+.projects-txt {
+  margin-top: 10px;
 }
 
-.projects
-{
-background: #00b3d1;	
+/* =========================
+   Lists
+========================= */
+
+.skills ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
 }
 
-
-.persona
-{
-background: #00b3d1;	
+.skills li {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 18px;
 }
 
+/* =========================
+   Project Cards
+========================= */
 
-h2{
-  	color: black;
-	text-align: center;
+.project,
+.affinity-diagram {
+  text-align: center;
+  margin-top: 15px;
 }
 
+.project img,
+.affinity-diagram img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+/* Project links */
+.project a,
+.affinity-diagram a {
+  text-decoration: none;
+  color: black;
+}
+
+/* =========================
+   Utility Classes
+========================= */
+
+.center {
+  text-align: center;
+  color: grey;
+}
+
+.left {
+  text-align: left;
+}
+
+.green {
+  color: green;
+}
+
+.wide {
+  width: 60%;
+}
+
+.attention {
+  font-weight: bold;
+}
